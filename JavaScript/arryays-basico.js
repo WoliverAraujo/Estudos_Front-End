@@ -1,7 +1,7 @@
 function saudacao (nome){
-  nome = 'Woliver';
   console.log (`Bom dia ${nome}!`);
-  
+  return 123456;
 }
 
-saudacao();
+const variavel = saudacao('Woliver');
+console.log(variavel);
